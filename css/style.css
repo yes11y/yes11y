@@ -1,0 +1,113 @@
+body {
+    background-color: #222;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #e3e1db;
+}
+a {
+    color: #a6ecff;
+}
+hr {
+    width: 400px
+}
+h6 {
+    font-size: 9px;
+}
+form {
+    display: block;
+    max-width: 100%;
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+input[type="submit"] {
+    background-color: #2c2943;
+    color: white;
+    width: 100px;
+    height: 2em;
+}
+input, textarea {
+    background-color: #1d1d1d;
+    border: 1px solid #131313;
+    color: white;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+#kafka {
+    position: relative;
+    height: 200px;
+    animation-name: kafka-move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes kafka-move {
+    0% {bottom: -10px;}
+    50% {bottom: 0px;}
+    100% {bottom: -10px;}
+}
+#atagoSip {
+    height: 30px;
+    padding-top: 5px;
+}
+#home-hr {
+    position: relative;
+    bottom: 35px;
+}
+#emu-skin {
+    height: 200px;
+}
+#standard-skins, #mania-skins {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 80%;
+}
+#announcement-text:after {
+    content: "";
+    animation-name: dotdotdot;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes dotdotdot {
+    0% {content: "";}
+    33% {content: ".";}
+    66% {content: "..";}
+    100% {content: "...";}
+}
+.pages {
+    word-spacing: 10px;
+}
+.announcement {
+    position: relative;
+    bottom: 45px;
+}
+.message {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3px;
+}
+.links-and-stuff {
+    font-size: 20px;
+}
+.skin-thumbnails {
+    width: 100%;
+    max-width: 500px;
+}
+.answers {
+    max-width: 100%;
+    width: 70%;
+    text-align: left;
+    border: 1px solid #131313;
+}
+.answers h3 {
+    color: #d2f5ff;
+}
+.q-and-a {
+    margin: 20px 10px;
+}
